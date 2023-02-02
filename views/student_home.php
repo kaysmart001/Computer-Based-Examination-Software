@@ -6,7 +6,7 @@ ini_set('display_errors', 1);
 //     header("Location:login.php");
 // }
 
-$link = mysqli_connect("127.0.0.1", "pmauser", "password", "CBE");
+$link = mysqli_connect("sql311.epizy.com", "epiz_33459705", "hvZgW4p2guu7", "epiz_33070717_test_db");
 
 if (!$link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
