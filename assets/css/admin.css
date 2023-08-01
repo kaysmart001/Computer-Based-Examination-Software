@@ -179,11 +179,14 @@ header .left>* {
 }
 
 img.user-action, .menu {
-    width: 40px;
+    width: 50px;
     padding: 5px;
     cursor: pointer;
     margin: 20px 10px 0px;
-    display: none;
+    min-height: calc(90vh - 45px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal-body {
@@ -206,7 +209,11 @@ img.user-action, .menu {
         width: 100%;
     }
     img.user-action, .menu {
-        display: block;
+       
+        min-height: calc(90vh - 45px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
 }
 
